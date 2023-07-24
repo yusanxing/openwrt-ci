@@ -23,7 +23,8 @@
 #========================================================================================================
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-passwall package/luci-app-passwall
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
