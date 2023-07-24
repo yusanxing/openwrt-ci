@@ -25,8 +25,8 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier packa
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-turboacc package/luci-app-turboacc
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-vlmcsd package/luci-app-vlmcsd
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mosdns package/luci-app-mosdns
+# svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-vlmcsd package/luci-app-vlmcsd
+# svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mosdns package/luci-app-mosdns
 
 
 #git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
