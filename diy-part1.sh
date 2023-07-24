@@ -22,9 +22,6 @@
 
 #========================================================================================================
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
-
 
 
 
