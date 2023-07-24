@@ -22,6 +22,12 @@
 
 #========================================================================================================
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+ #git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+ # git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+
+# feeds获取源码：
+src-git autotimeset https://github.com/sirpdboy/luci-app-autotimeset
+src-git advanced https://github.com/sirpdboy/luci-app-advanced
 
 
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
