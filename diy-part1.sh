@@ -24,7 +24,8 @@
 #========================================================================================================
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-turboacc package/luci-app-turboacc
 
@@ -42,11 +43,8 @@ svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-pass
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-socat package/luci-app-socat
 
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/adguardhome
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/jerrykuku-jd-dailybonus
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
-#git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-#git clone https://github.com/project-lede/luci-app-godproxy.git package/lean/godproxy
 #========================================================================================================
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/lean/iptvhelper
