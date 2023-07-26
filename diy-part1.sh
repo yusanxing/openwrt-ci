@@ -18,7 +18,7 @@ echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' 
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 
 #========================================================================================================
-git clone https://github.com/zhengmz/luci-app-zerotier.git package/zerotier
+# git clone https://github.com/zhengmz/luci-app-zerotier.git package/zerotier
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 
