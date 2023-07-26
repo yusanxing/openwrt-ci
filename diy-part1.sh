@@ -14,13 +14,14 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' >> feeds.conf.default
+#echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' >> feeds.conf.default
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
+echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> feeds.conf.default
 
 #========================================================================================================
-# git clone https://github.com/zhengmz/luci-app-zerotier.git package/zerotier
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 
 #git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
