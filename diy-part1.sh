@@ -21,6 +21,7 @@ echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' 
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-turboacc package/luci-app-turboacc
