@@ -14,15 +14,21 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' >> feeds.conf.default
+#echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' >> feeds.conf.default
+echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
+echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> feeds.conf.default
+
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+
 
 #========================================================================================================
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-git clone https://github.com/sbwml/luci-app-upnp.git package/luci-app-upnp
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
+git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
+git clone https://github.com/sbwml/luci-app-upnp.git package/luci-app-upnp
+
 
 rm -rf feeds/packages/net/v2ray-geodata
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
