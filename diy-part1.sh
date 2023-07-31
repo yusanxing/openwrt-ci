@@ -27,7 +27,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
-git clone https://github.com/sbwml/luci-app-upnp.git package/luci-app-upnp
+#git clone https://github.com/sbwml/luci-app-upnp.git package/luci-app-upnp    qu
 
 
 rm -rf feeds/packages/net/v2ray-geodata
