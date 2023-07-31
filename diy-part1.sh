@@ -22,6 +22,7 @@ git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sbwml/luci-app-upnp.git package/luci-app-upnp
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/sbwml/OpenAppFilter.git package/OpenAppFilter
 
 rm -rf feeds/packages/net/v2ray-geodata
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
