@@ -19,8 +19,8 @@ echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.
 
 
 #========================================================================================================
-# git clone https://github.com/gdy666/luci-app-lucky.git package/lucky  1
-# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter  1 
+# git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
+# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # rm -rf feeds/packages/net/v2ray-geodata
 # git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
