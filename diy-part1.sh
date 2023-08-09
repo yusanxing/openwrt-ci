@@ -19,7 +19,6 @@
 
 #========================================================================================================
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 
 
 rm -rf feeds/packages/net/v2ray-geodata
