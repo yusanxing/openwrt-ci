@@ -19,7 +19,7 @@
 #========================================================================================================
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 
-svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-passwall package/luci-app-passwall
+#svn co https://github.com/NueXini/NueXini_Packages/trunk/luci-app-passwall package/luci-app-passwall
 
 #rm -rf feeds/packages/net/v2ray-geodata
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
