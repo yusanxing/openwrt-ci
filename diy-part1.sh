@@ -19,7 +19,7 @@
 #echo "src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> feeds.conf.default
 #========================================================================================================
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-src-git passwall https://github.com/xiaorouji/openwrt-passwall
+
 
 #rm -rf feeds/packages/net/v2ray-geodata
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
